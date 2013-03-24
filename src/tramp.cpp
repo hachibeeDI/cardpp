@@ -6,10 +6,8 @@
 #include <sstream>
 
 Tramp::Tramp(int number, ICardPicture* picture)
-{
-    number_ = number;
-    picture_ = picture;
-}
+    :number_(number), picture_(picture)
+{ }
 
 int Tramp::getNumber()
 {
