@@ -7,7 +7,10 @@
 
 class Cardbox
 {
-    public:
+private:
+    static std::vector<Tramp> _buildCards(ICardPicture* pict);
+
+public:
     static std::vector<Tramp> getCards();
 };
 
