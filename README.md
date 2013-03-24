@@ -3,9 +3,10 @@
 ### how to make ###
 
 - require
-    autotools
-    automake
-
+    - autotools  
+    - automake
+  
+  
 
 ```bash
 $ aclocal
